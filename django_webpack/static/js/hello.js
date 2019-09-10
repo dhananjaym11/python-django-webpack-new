@@ -1,6 +1,6 @@
-const sayHello = () => console.log('hi');
-sayHello();
+import $ from 'jquery';
 
-// function sayHello() {
-//     console.log('here');
-// }
+$(() => {
+    const sayHello = () => console.log('hi');
+    sayHello();
+});

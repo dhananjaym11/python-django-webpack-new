@@ -1,0 +1,1 @@
+import './django_webpack/static/js/hello';
